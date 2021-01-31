@@ -17,8 +17,8 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                <ul class="nav navbar-nav ">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="index.html"></a>
                     </li>
@@ -43,38 +43,60 @@
             </div>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div class="Latitude">
-            <div class="row">
-                <h1 class="display-4">Summary: Latitude vs. X</h1>
-                <hr class="my-4">
-                <div class="col-md-3 media">
-                    <img src="Images/lat_vs_Temp.png" class="img-thumbnail align-self-center mr-3" alt="Wind Speed">
-                    <p>temperature, cloudiness, wind speed, and humidity. This site provides</p>
-                </div>
-                <div class="col-md-3">
-                    <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
-                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included:</p>
-                </div>
-                <div class="col-md-3">
-                    <h3 class="display-3">Visualizations</h3>
-                    <img src="Images/lat_vs_cloudiness.png" class="rounded float-start img-thumbnail alt="Cloudiness">
-                    <img src="Images/lat_vs_humidity.png" class="rounded float-end img-thumbnail" alt="Humidity">        
-                </div>
-                <div class="col-md-3">
-                    <h3 class="display-2">" "</h3>
-                    <img src="Images/lat_vs_Temp.png" class="rounded float-start img-thumbnail" alt="Max Temperature">
-                    <img src="Images/lat_vs_windspeed.png" class="rounded float-end img-thumbnail" alt="Wind Speed">        
-                </div>
+    
+    <!-- left side Landing Page -->
+    <div class = "container"  >
+        <div class="row">
+            <div class="col-md-8">
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                    <h2 class="display-3">Summary: Latitude vs. X</h2>
+                    <hr>
+                    <img src="Images/lat_vs_Temp.png" img-thumbnail align ="left" alt="Max Temperature" >
+                    <p>The purpose of this project was to analyze how weather changes as you get close to the equator.To accomplish this analysis we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.</p>
+                    <br>
+                    <p>After assembling the dataset, we used Matplotlib to plot various aspects of weather vs. latitude. Factors we looked at included: temperatue, cloudiness, wind speed and humidity. This site provides the source data and visualizations 
+                    created as part of the analysis as well as explanations and descriptions of any trends and correlations witnessed.</p>
+                    <br>        
+                </div>  
             </div>
         </div>
+        <!-- right side Landing Page -->
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">                                    
+                    <h2 class="display-3">Visualizations</h2>
+                    <hr>
+                    <!-- small visualizations -->
+                    <div class="row" >
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <a href="max_temp.html">
+                                <img class = "img-responsive" src="Images/lat_vs_Temp.png" style="width:120%" alt="">
+                            </a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <a href="humidity.html">
+                                <img  class = "img-responsive" src="Images/lat_vs_humidity.png" style="width:120%" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <a href="cloudiness.html">
+                                <img class = "img-responsive" src="Images/lat_vs_cloudiness.png" style="width:120%" alt="">
+                            </a></div>
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <a href="wind_speed.html">
+                                <img class = "img-responsive" src="Images/lat_vs_windspeed.png" style="width:120%" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>     
+        </div>    
     </div>
         
         
         
-        
-        
-        </div>
         <!--Normally these medium columns go full wide on small screen sizes-->
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
