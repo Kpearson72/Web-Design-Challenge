@@ -40,5 +40,10 @@ p {
 
 .under-header {
     font-family: Georgia;
-    font-size: 13px
+    font-size: 15px
+}
+
+.card-title {
+    font-family: Georgia;
+    color: lightseagreen;
 }
