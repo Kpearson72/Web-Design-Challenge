@@ -1,0 +1,32 @@
+/* header nav  */
+.navbar-brand, .navbar-text {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size:30px;
+    background-color: lightseagreen
+    ;
+}
+
+.display-4 {
+    font-family: Georgia;
+    font-weight: 400;
+    color: lightseagreen;
+
+}
+
+.display-3 {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 40px;
+    color: lightseagreen;
+}
+
+p {
+    font-size: 16px;
+}
+.display-2 {
+    font-family: Georgia;
+    font-weight: 400;
+    font-size: 40px;
+    color: white;
+}
