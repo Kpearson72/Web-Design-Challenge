@@ -18,7 +18,7 @@
 
 </head>
 <body>
-  <div class="container">
+ 
     <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -42,7 +42,7 @@
                                 <a class="nav-link" href="cities.html">Data</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle navbar-toggle-right" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Plots
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -58,23 +58,31 @@
             </div>
         </nav>
     </div>
+
+<div class="box1">
+  <div class="row">
+      <div class="rectangle rectangle-1"></div>
+  </div>
 </div>
 <!-- left side Max Temperature Page -->
 <div class = "container-fluid">
   <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-6">
+        <section>
           <div class="panel panel-default">
               <div class="panel-body">
                   <br>
                   <h2 class="display-3">Max Temperature</h2>
                   <hr>
-                  <img src="Images/lat_vs_Temp.png"alt="Max Temperature" >
+                  <img src="Images/lat_vs_Temp.png" class="rounded mx-auto d-block" alt="Max Temperature" >
                   <p >The Latitude vs. Temperature Plot plot shows that the temperatures in cities from the Northern Hemisphere tend to drop during the month of December 2020. The cities that are further north from the equator are colder. This plot shows there is a positive correlation between the Max Temperature and Latitude.</p>
               </div>        
-          </div>  
+          </div>
+        </section>  
       </div>       
       <div class="col-lg-4">
+        <section>
           <div class="panel panel-default">
               <div class="panel-body">
                   <br>                                    
@@ -105,7 +113,8 @@
                       </div>
                   </div>
               </div>
-          </div>     
+          </div>
+        </section>     
       </div>
       <div class="col-md-1"></div>     
   </div>

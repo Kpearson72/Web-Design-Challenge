@@ -13,7 +13,7 @@
     <title>Cloudiness</title>
 </head>
 <body>
-  <div class="container">
+
     <div class="row">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
@@ -37,7 +37,7 @@
                                 <a class="nav-link" href="cities.html">Data</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <a class="nav-link dropdown-toggle navbar-toggle-right" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Plots
                                 </a>
                                 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -53,23 +53,31 @@
             </div>
         </nav>
     </div>
+
+<div class="box1">
+  <div class="row">
+      <div class="rectangle rectangle-1"></div>
+  </div>
 </div>
 <!-- left side Cloudiness Page -->
 <div class = "container-fluid">
   <div class="row">
       <div class="col-md-1"></div>
       <div class="col-md-6">
+        <section>
           <div class="panel panel-default">
               <div class="panel-body">
                   <br>
                   <h2 class="display-3">Cloudiness</h2>
                   <hr>
-                  <img src="Images/lat_vs_cloudiness.png"alt="Cloudiness" >
+                  <img src="Images/lat_vs_cloudiness.png" class="rounded mx-auto d-block" alt="Cloudiness" >
                   <p >Latitude vs. Cloudiness Plot shows that the data points are spread out in the graph. This means there is no trend to the data; thus there is no correlation.</p>
               </div>        
-          </div>  
+          </div>
+        </section>  
       </div>       
       <div class="col-lg-4">
+        <section>
           <div class="panel panel-default">
               <div class="panel-body">
                   <br>                                    
@@ -100,7 +108,8 @@
                       </div>
                   </div>
               </div>
-          </div>     
+          </div>
+        </section>     
       </div>
       <div class="col-md-1"></div>     
   </div>
