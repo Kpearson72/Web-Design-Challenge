@@ -19,51 +19,52 @@
 </head>
 <body>
 
-        <div class="row">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-                    <div class="col-md-1">
-                        <a class="navbar-brand " href="index.html">Latitude</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="col-md-8"></div>
-                    <div class="col-md-3">
-                        <div class="collapse navbar-collapse " id="navbarNavDropdown">
-                            <ul class="nav navbar-nav navbar-right">
-                                <li class="nav-item">
-                                    <a class="nav-link active" aria-current="page" href="index.html"></a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="comparison.html">Comparison</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="cities.html">Data</a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle navbar-toggle-right" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Plots
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                        <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
-                                        <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
-                                        <li><a class="dropdown-item" href="max_temp.html">Max Temperature</a></li>
-                                        <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="col-md-1">
+                    <a class="navbar-brand " href="index.html">Latitude</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+                <div class="col-md-8"></div>
+                <div class="col-md-3">
+                    <div class="collapse navbar-collapse " id="navbarNavDropdown">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="comparison.html">Comparison</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cities.html">Data</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle navbar-toggle-right" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Plots
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                    <li><a class="dropdown-item" href="cloudiness.html">Cloudiness</a></li>
+                                    <li><a class="dropdown-item" href="humidity.html">Humidity</a></li>
+                                    <li><a class="dropdown-item" href="max_temp.html">Max Temperature</a></li>
+                                    <li><a class="dropdown-item" href="wind_speed.html">Wind Speed</a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-            </nav>
-        </div>
-   
+            </div>
+        </nav>
+    </div>
+
     <div class="box1">
       <div class="row">
           <div class="rectangle rectangle-1"></div>
       </div>
-  </div>
+    </div>
+
   <!-- Header -->
   <div class = "container"  >
     <div class="row">
@@ -89,7 +90,9 @@
         <div class="card-body">
           <h4 class="card-title text-center">vs. Max Temperature</h4>
         </div>
-        <img src="Images/lat_vs_Temp.png" alt="Max Temperature">
+        <a href="max_temp.html">
+          <img src="Images/lat_vs_Temp.png" class="rounded mx-auto d-block" alt="Max Temperature">
+        </a>
       </div>
     </div>
     <div class="col-md-4">
@@ -97,7 +100,9 @@
         <div class="card-body">
           <h4 class="card-title text-center">vs. Humidity</h4>
         </div>
-        <img src="Images/lat_vs_humidity.png"  alt="Humidity">
+        <a href="humidity.html">
+          <img src="Images/lat_vs_humidity.png" class="rounded mx-auto d-block"  alt="Humidity">
+        </a>
       </div>
       <div class="col-md-2"></div>
     </div>
@@ -109,7 +114,9 @@
         <div class="card-body">
           <h4 class="card-title text-center">vs. Cloudiness</h4>
         </div>
-        <img src="Images/lat_vs_cloudiness.png"  alt="Cloudiness">
+        <a href="cloudiness.html">
+          <img src="Images/lat_vs_cloudiness.png" class="rounded mx-auto d-block" alt="Cloudiness">
+        </a>
       </div>
     </div>
     <div class="col-md-4">
@@ -117,7 +124,9 @@
         <div class="card-body">
           <h4 class="card-title text-center">vs. Wind Speed</h4>
         </div>
-        <img src="Images/lat_vs_windspeed.png" alt="Wind Speed">
+        <a href="wind_speed.html">
+          <img src="Images/lat_vs_windspeed.png" class="rounded mx-auto d-block" alt="Wind Speed">
+        </a>
       </div>
       <div class="col-sm-2"></div>
     </div>
